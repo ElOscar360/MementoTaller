@@ -37,16 +37,7 @@ classDiagram
     Main ..> Historial : usa
 ```
 
-## 🔄 Flujo de la prueba
 
-```mermaid
-flowchart LR
-    A["Estado 1<br/>Hola"] -->|Guardar| B["Estado 2<br/>Hola, mundo"]
-    B -->|Guardar| C["Estado 3<br/>Hola, mundo. Adiós"]
-    C -->|Restaurar| D["Estado 2<br/>Hola, mundo"]
-```
-
-
-## 🖥️ Salida en consola
+## Salida en consola
 
 ![Salida del programa en la terminal](docs/terminal.png)
